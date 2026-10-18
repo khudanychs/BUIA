@@ -1,0 +1,2 @@
+## Spouštění
+> cargo run --release
