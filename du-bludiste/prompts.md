@@ -52,3 +52,12 @@ Níže je souhrn mých zadání a promptů, kterými jsem asistenta vedl k imple
 >
 > Můžeš tyhle naše předchozí prompty vzít a hodit je do přehledného Markdown souboru `prompts.md` pro odevzdání? Hlavně nijak neměň jejich věcné znění ani styl, aby to byly doopravdy mé prompty, akorát hezky v MD.
 
+---
+
+### Prompt 5: Škálování na astronomické rozměry (n = 10^15) přes procedurální hash
+
+> Hele, lidi na cvičení se předhánějí a dávají tam rozměry až 10^15 (což by v RAM zabralo kvadriliony bajtů). Pojďme to trumfnout:
+> - Přidej procedurální generování mřížky přes matematický hash (SplitMix64) – zdi se budou počítat za běhu z (x, y) a mřížka bude mít 0 bajtů v RAM.
+> - Pro 40 % překážek udělej obousměrný důkaz uzavřené komponenty (ze startu a z cíle): když se prozkoumá lokální uzavřená bublina startu nebo cíle a fronta dojde, máme okamžitý důkaz, že cesta neexistuje pro libovolně obří n (třeba n = 10^15) za pár mikrosekund.
+> - A přidej pro to test pro n = 10^15 (1 biliarda buněk na stranu, 10^30 celkem).
+
