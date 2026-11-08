@@ -24,10 +24,12 @@ Model využívá 4 vstupní atributy odpovídající validační specifikaci:
 4. `rok_prodeje` – rok realizace prodeje nemovitosti
 
 ### Výsledný vzorec:
-$$\text{cena} = (0{,}6133 \cdot \text{kvalita}) + (0{,}0162 \cdot \text{plocha}) + (0{,}0129 \cdot \text{rok\_stavby}) + (0{,}0172 \cdot \text{rok\_prodeje}) - 61{,}3022$$
+```text
+cena = (0.6133 * kvalita) + (0.0162 * plocha) + (0.0129 * rok_stavby) + (0.0172 * rok_prodeje) - 61.3022
+```
 
 * **Koeficienty (váhy):** `[0.61325, 0.01619, 0.01286, 0.01716]`
-* **Posun (intercept $b$):** `-61.3022`
+* **Posun (intercept `b`):** `-61.3022`
 
 ---
 
